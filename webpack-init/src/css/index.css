@@ -1,0 +1,11 @@
+li{
+    list-style-type: none;
+}
+#box{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    background: url(../images/1.jpg);
+    background-size: cover;
+}

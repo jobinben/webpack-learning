@@ -1,0 +1,17 @@
+.xxx{
+    color: #12345678;
+    background-color: red;
+    user-select: none;
+}
+
+/* 用了postcss-loader 加 postcss-preset-env插件后 可以把css替换成适配大部分浏览器的样式，加上前缀，或者使用polyfill*/
+/* 以下是上面被转换的结果 */
+/* 
+.xxx{
+    color: rgba(18,52,86,0.47059);
+    background-color: red;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+} */
